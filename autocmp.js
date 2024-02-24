@@ -17,7 +17,7 @@ const tagMap = {
     "s": [["\\(\\displaystyle\\sigma\\) (conductivity)", "conductivity"], ["\\(\\displaystyle\\sigma\\) (area charge density)", "areachargedensity"],],
     "t": [["\\(\\displaystyle t\\) (time)", "time"],],
     "u": [["\\(\\displaystyle U\\) (potential energy)", "penergy"], ["\\(\\displaystyle u\\) (energy density)", "energydensity"],],
-    "v": [["\\(\\displaystyle\\vec{v}\\) (velocity)", "velocity"], ["\\(\\displaystyle\\vec{v}_d\\) (drift velocity)", "driftvelocity"], ["\\(\\displaystyle V\\) (voltage)", "volt"],],
+    "v": [["\\(\\displaystyle\\vec{v}\\) (velocity)", "velocity"], ["\\(\\displaystyle\\vec{v}_d\\) (drift velocity)", "driftvelocity"], ["\\(\\displaystyle V\\) (voltage)", "volt"], ["\\(\\displaystyle V\\) (volume)", "volume"]],
 };
 
 function showAuto() {

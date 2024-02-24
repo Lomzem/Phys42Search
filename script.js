@@ -31,6 +31,11 @@ const eqns = [
         tags: ["sigma", "areachargedensity", "area", "charge"]
     },
     {
+        // volume charge density
+        latex: "\\( \\displaystyle \\rho = \\frac{q}{\\text{Volume}}\\)",
+        tags: ["charge", "volume", "density"]
+    },
+    {
         // point charge penergy
         latex: "\\( \\displaystyle U_{\\text{point}} = \\frac{kqQ}{r}\\)",
         tags: ["penergy", "charge"],
