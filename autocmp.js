@@ -1,5 +1,5 @@
 const tagMap = {
-    "a": [["\\(\\displaystyle\\vec{A}\\) (area)", "area"],],
+    "a": [["\\(\\displaystyle\\vec{A}\\) (area)", "area"], ["\\(\\displaystyle a\\) (acceleration)", "acceleration"],],
     "c": [["\\(\\displaystyle C\\) (capacitance)", "capacitance"],],
     "d": [["\\(\\displaystyle d\\) (distance)", "distance"],],
     "e": [["\\(\\displaystyle\\vec{E}\\) (electric field)", "efield"],],
