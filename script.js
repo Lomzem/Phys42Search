@@ -31,6 +31,46 @@ const eqns = [
         tags: ["sigma", "areachargedensity", "area", "charge"]
     },
     {
+        // point charge penergy
+        latex: "\\( \\displaystyle U_{\\text{point}} = \\frac{kqQ}{r}\\)",
+        tags: ["penergy", "charge"],
+    },
+    {
+        // volt U
+        latex: "\\( \\displaystyle \\Delta U = \\Delta V q\\)",
+        tags: ["volt", "penergy", "charge"],
+    },
+    {
+        // volt E int
+        latex: "\\(\\displaystyle \\Delta V = - \\int \\vec{E} \\cdot d\\vec{r}\\)",
+        tags: ["volt", "efield"],
+    },
+    {
+        // capacitance
+        latex: "\\(\\displaystyle C = \\frac{q}{V}\\)",
+        tags: ["capacitance", "charge", "volt"],
+    },
+    {
+        // ceq series
+        latex: "\\(\\displaystyle \\frac{1}{C_{\\text{(eq series)}}} = \\sum_{i=1}^{N} \\frac{1}{C_i}\\)",
+        tags: ["capacitance"],
+    },
+    {
+        // ceq parallel
+        latex: "\\(\\displaystyle C_{\\text{(eq parallel)}} = \\sum_{i=1}^{N} C_i\\)",
+        tags: ["capacitance"],
+    },
+    {
+        // capacitance parallel plate
+        latex: "\\(\\displaystyle C_{\\text{(parallel plate)}} = \\epsilon_0 \\frac{A}{d}\\)",
+        tags: ["capacitance", "area", "distance"],
+    },
+    {
+        // capacitance cylinder
+        latex: "\\(\\displaystyle C_{\\text{cylinder}} = \\frac{2 \\pi L \\epsilon_0}{\\ln (\\frac{r_o}{r_i})}\\)",
+        tags: ["capacitance", "length"]
+    },
+    {
         // electric current
         latex: "\\(\\displaystyle I = \\frac{dq}{dt}\\)",
         tags: ["current", "charge", "time"]

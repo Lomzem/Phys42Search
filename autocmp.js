@@ -1,52 +1,22 @@
 const tagMap = {
-    "p": [
-        ["\\(\\displaystyle\\rho\\) (resistivity)", "resistivity"],
-        ["\\(\\displaystyle\\rho\\) (density)", "density"],
-    ],
-    "f": [
-        ["\\(\\displaystyle\\vec{F}\\) (force)", "force"],
-    ],
-    "e": [
-        ["\\(\\displaystyle\\vec{E}\\) (electric field)", "efield"],
-    ],
-    "i": [
-        ["\\(\\displaystyle I\\) (current)", "current"],
-        ["\\(\\displaystyle \\Phi\\) (electric flux)", "eflux"],
-    ],
-    "l": [
-        ["\\(\\displaystyle L\\) (length)", "length"],
-    ],
-    "a": [
-        ["\\(\\displaystyle\\vec{A}\\) (area)", "area"],
-    ],
-    "v": [
-        ["\\(\\displaystyle\\vec{v}\\) (velocity)", "velocity"],
-        ["\\(\\displaystyle\\vec{v}_d\\) (drift velocity)", "driftvelocity"],
-        ["\\(\\displaystyle V\\) (voltage)", "volt"],
-    ],
-    "r": [
-        ["\\(\\displaystyle R\\) (resistance)", "resistance"],
-    ],
-    "j": [
-        ["\\(\\displaystyle\\vec{J}\\) (current density)", "currentdensity"],
-    ],
-    "o": [
-        ["\\(\\displaystyle\\sigma\\) (conductivity)", "conductivity"],
-        ["\\(\\displaystyle\\sigma\\) (area charge density)", "areachargedensity"],
-    ],
-    "s": [
-        ["\\(\\displaystyle\\sigma\\) (conductivity)", "conductivity"],
-        ["\\(\\displaystyle\\sigma\\) (area charge density)", "areachargedensity"],
-    ],
-    "q": [
-        ["\\(\\displaystyle q\\) (charge)", "charge"],
-    ],
-    "t": [
-        ["\\(\\displaystyle t\\) (time)", "time"],
-    ],
-    "n": [
-        ["\\(\\displaystyle n\\) (charge carrier density)", "chargecarrierdensity"],
-    ],
+    "a": [["\\(\\displaystyle\\vec{A}\\) (area)", "area"],],
+    "c": [["\\(\\displaystyle C\\) (capacitance)", "capacitance"],],
+    "d": [["\\(\\displaystyle d\\) (distance)", "distance"],],
+    "e": [["\\(\\displaystyle\\vec{E}\\) (electric field)", "efield"],],
+    "f": [["\\(\\displaystyle\\vec{F}\\) (force)", "force"],],
+    "i": [["\\(\\displaystyle I\\) (current)", "current"], ["\\(\\displaystyle \\Phi\\) (electric flux)", "eflux"],],
+    "j": [["\\(\\displaystyle\\vec{J}\\) (current density)", "currentdensity"],],
+    "l": [["\\(\\displaystyle L\\) (length)", "length"],],
+    "m": [["\\(\\displaystyle m\\) (mass)", "mass"],],
+    "n": [["\\(\\displaystyle n\\) (charge carrier density)", "chargecarrierdensity"],],
+    "o": [["\\(\\displaystyle\\sigma\\) (conductivity)", "conductivity"], ["\\(\\displaystyle\\sigma\\) (area charge density)", "areachargedensity"],],
+    "p": [["\\(\\displaystyle\\rho\\) (resistivity)", "resistivity"], ["\\(\\displaystyle\\rho\\) (density)", "density"],],
+    "q": [["\\(\\displaystyle q\\) (charge)", "charge"],],
+    "r": [["\\(\\displaystyle R\\) (resistance)", "resistance"],],
+    "s": [["\\(\\displaystyle\\sigma\\) (conductivity)", "conductivity"], ["\\(\\displaystyle\\sigma\\) (area charge density)", "areachargedensity"],],
+    "t": [["\\(\\displaystyle t\\) (time)", "time"],],
+    "u": [["\\(\\displaystyle U\\) (potential energy)", "penergy"],],
+    "v": [["\\(\\displaystyle\\vec{v}\\) (velocity)", "velocity"], ["\\(\\displaystyle\\vec{v}_d\\) (drift velocity)", "driftvelocity"], ["\\(\\displaystyle V\\) (voltage)", "volt"],],
 };
 
 function showAuto() {
