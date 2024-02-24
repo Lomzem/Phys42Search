@@ -21,13 +21,8 @@ const eqns = [
         tags: ["lambda", "linearchargedensity", "length", "charge"]
     },
     {
-        // electric flux integral
-        latex: "\\(\\displaystyle\\Phi_E = \\oint \\vec{E} \\cdot d\\vec{A}\\)",
-        tags: ["efield", "area", "eflux"]
-    },
-    {
-        // electric flux qenc
-        latex: "\\(\\displaystyle\\Phi_E = \\frac{q_{\\text{enc}}}{\\epsilon_0}\\)",
+        // electric flux
+        latex: "\\(\\displaystyle\\Phi_E = \\frac{q_{\\text{enc}}}{\\epsilon_0} = \\oint \\vec{E} \\cdot d\\vec{A}\\)",
         tags: ["efield", "area", "eflux", "charge", "area"]
     },
     {

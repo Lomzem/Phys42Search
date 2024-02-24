@@ -11,6 +11,7 @@ const tagMap = {
     ],
     "i": [
         ["\\(\\displaystyle I\\) (current)", "current"],
+        ["\\(\\displaystyle \\Phi\\) (electric flux)", "eflux"],
     ],
     "l": [
         ["\\(\\displaystyle L\\) (length)", "length"],
