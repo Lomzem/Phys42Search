@@ -5,7 +5,7 @@ const eqns = [
     },
     {
         latex: "\\(\\displaystyle|\\vec{F}_{\\text{electric}}| =\\frac{kq_1q_2}{r^2}\\)",
-        tags: ["force", "mass", "acceleration", "charge"]
+        tags: ["force", "charge"]
     },
     {
         latex: "\\(\\displaystyle|\\vec{E}| =\\frac{kq}{r^2}\\)",
@@ -33,6 +33,46 @@ const eqns = [
         // area charge density
         latex: "\\( \\displaystyle \\sigma = \\frac{q}{A}\\)",
         tags: ["sigma", "areachargedensity", "area", "charge"]
+    },
+    {
+        // electric current
+        latex: "\\(\\displaystyle I = \\frac{dq}{dt}\\)",
+        tags: ["current", "charge", "time"]
+    },
+    {
+        // electric current
+        latex: "\\(\\displaystyle I = neAv_d\\)",
+        tags: ["current", "charge", "area", "driftvelocity", "chargecarrierdensity"]
+    },
+    {
+        // current density
+        latex: "\\(\\displaystyle |\\vec{J}| = \\frac{I}{A}\\)",
+        tags: ["currentdensity", "current", "area"]
+    },
+    {
+        // current density
+        latex: "\\(\\displaystyle |\\vec{J}| = nev_d\\)",
+        tags: ["currentdensity", "chargecarrierdensity", "driftvelocity"]
+    },
+    {
+        // current density
+        latex: "\\(\\displaystyle \\vec{J} = \\sigma \\vec{E}\\ = \\frac{\\vec{E}}{\\rho}\\)",
+        tags: ["currentdensity", "efield", "conductivity", "resistivity"]
+    },
+    {
+        // conductivity resistivity
+        latex: "\\(\\displaystyle \\rho = \\frac{1}{\\sigma} \\Leftrightarrow \\sigma = \\frac{1}{\\rho}\\)",
+        tags: ["conductivity", "resistivity"]
+    },
+    {
+        // resistance
+        latex: "\\(\\displaystyle R = \\rho \\frac{l}{A}\\)",
+        tags: ["resistance", "conductivity", "resistivity", "length", "area"]
+    },
+    {
+        // resistivity
+        latex: "\\(\\displaystyle \\rho = \\rho_0 (1 + \\alpha(T - T_0)\\)",
+        tags: ["resistivity", "conductivity", "tempcoeffresistivity", "temp"]
     },
 ]
 
