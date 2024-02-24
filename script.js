@@ -71,6 +71,16 @@ const eqns = [
         tags: ["capacitance", "length"]
     },
     {
+        // dielectric constant
+        latex: "\\(\\displaystyle C = \\kappa C_0\\)",
+        tags: ["dielectricconstant", "capacitance"],
+    },
+    {
+        // energy density
+        latex: "\\(\\displaystyle u = \\frac{1}{2} \\epsilon_0 E^2\\)",
+        tags: ["energydensity", "efield"],
+    },
+    {
         // electric current
         latex: "\\(\\displaystyle I = \\frac{dq}{dt}\\)",
         tags: ["current", "charge", "time"]

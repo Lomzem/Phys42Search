@@ -6,6 +6,7 @@ const tagMap = {
     "f": [["\\(\\displaystyle\\vec{F}\\) (force)", "force"],],
     "i": [["\\(\\displaystyle I\\) (current)", "current"], ["\\(\\displaystyle \\Phi\\) (electric flux)", "eflux"],],
     "j": [["\\(\\displaystyle\\vec{J}\\) (current density)", "currentdensity"],],
+    "k": [["\\(\\displaystyle \\kappa\\) (dielectric constant)", "dielectricconstant"],],
     "l": [["\\(\\displaystyle L\\) (length)", "length"],],
     "m": [["\\(\\displaystyle m\\) (mass)", "mass"],],
     "n": [["\\(\\displaystyle n\\) (charge carrier density)", "chargecarrierdensity"],],
@@ -15,7 +16,7 @@ const tagMap = {
     "r": [["\\(\\displaystyle R\\) (resistance)", "resistance"],],
     "s": [["\\(\\displaystyle\\sigma\\) (conductivity)", "conductivity"], ["\\(\\displaystyle\\sigma\\) (area charge density)", "areachargedensity"],],
     "t": [["\\(\\displaystyle t\\) (time)", "time"],],
-    "u": [["\\(\\displaystyle U\\) (potential energy)", "penergy"],],
+    "u": [["\\(\\displaystyle U\\) (potential energy)", "penergy"], ["\\(\\displaystyle u\\) (energy density)", "energydensity"],],
     "v": [["\\(\\displaystyle\\vec{v}\\) (velocity)", "velocity"], ["\\(\\displaystyle\\vec{v}_d\\) (drift velocity)", "driftvelocity"], ["\\(\\displaystyle V\\) (voltage)", "volt"],],
 };
 
