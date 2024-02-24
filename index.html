@@ -5,13 +5,19 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="autocmp.css">
     <title>Physics 42 Equation Search</title>
 </head>
 
 <body>
-    <input type="text" id="searchInput" oninput="searchEquations()" autofocus>
-    <ul id="eqnList"></ul>
+    <div class="container">
+        <input type="text" id="searchInput" class="autocomplete-input" oninput="showAuto(); searchEquations();"
+            autofocus>
+        <ul id="autoList" class="autocomplete-list"></ul> <!-- Autocomplete list -->
+        <ul id="eqnList" class="eqn-list"></ul>
+    </div>
     <script src="script.js"></script>
+    <script src="autocmp.js"></script>
     <script>showAllEqn();</script>
 </body>
 

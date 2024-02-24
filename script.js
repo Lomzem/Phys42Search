@@ -8,7 +8,8 @@ const eqns = [
         tags: ["force", "charge"]
     },
     {
-        latex: "\\(\\displaystyle|\\vec{E}| =\\frac{kq}{r^2}\\)",
+        // point charge
+        latex: "\\(\\displaystyle|\\vec{E}_\\text{point}| =\\frac{kq}{r^2}\\)",
         tags: ["efield", "charge"]
     },
     {
@@ -66,13 +67,18 @@ const eqns = [
     },
     {
         // resistance
-        latex: "\\(\\displaystyle R = \\rho \\frac{l}{A}\\)",
+        latex: "\\(\\displaystyle R = \\rho \\frac{L}{A}\\)",
         tags: ["resistance", "conductivity", "resistivity", "length", "area"]
     },
     {
         // resistivity
         latex: "\\(\\displaystyle \\rho = \\rho_0 (1 + \\alpha(T - T_0)\\)",
         tags: ["resistivity", "conductivity", "tempcoeffresistivity", "temp"]
+    },
+    {
+        // ohms law
+        latex: "\\(\\displaystyle V = I R\\)",
+        tags: ["resistance", "volt", "current"]
     },
 ]
 
