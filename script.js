@@ -130,6 +130,21 @@ const eqns = [
         latex: "\\(\\displaystyle V = I R\\)",
         tags: ["resistance", "volt", "current"]
     },
+    {
+        // power
+        latex: "\\(\\displaystyle P = \\frac{\\Delta U}{\\Delta t}\\)",
+        tags: ["power", "penergy", "time"]
+    },
+    {
+        // power
+        latex: "\\(\\displaystyle P = IV\\)",
+        tags: ["power", "current", "volt"]
+    },
+    {
+        // power
+        latex: "\\(\\displaystyle P_{\\text{resistor}} = I^2 R = \\frac{V^2}{R}\\)",
+        tags: ["power", "current", "resistance", "volt"],
+    },
 ]
 
 function showAllEqn() {

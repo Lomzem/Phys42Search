@@ -11,7 +11,7 @@ const tagMap = {
     "m": [["\\(\\displaystyle m\\) (mass)", "mass"],],
     "n": [["\\(\\displaystyle n\\) (charge carrier density)", "chargecarrierdensity"],],
     "o": [["\\(\\displaystyle\\sigma\\) (conductivity)", "conductivity"], ["\\(\\displaystyle\\sigma\\) (area charge density)", "areachargedensity"],],
-    "p": [["\\(\\displaystyle\\rho\\) (resistivity)", "resistivity"], ["\\(\\displaystyle\\rho\\) (density)", "density"],],
+    "p": [["\\(\\displaystyle P\\) (power)", "power"], ["\\(\\displaystyle\\rho\\) (resistivity)", "resistivity"], ["\\(\\displaystyle\\rho\\) (density)", "density"],],
     "q": [["\\(\\displaystyle q\\) (charge)", "charge"],],
     "r": [["\\(\\displaystyle R\\) (resistance)", "resistance"],],
     "s": [["\\(\\displaystyle\\sigma\\) (conductivity)", "conductivity"], ["\\(\\displaystyle\\sigma\\) (area charge density)", "areachargedensity"],],
