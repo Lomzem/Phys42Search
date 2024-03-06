@@ -172,11 +172,6 @@ function searchEquations() {
         return;
     }
 
-    // eqns.forEach((eqn) => {
-    //     const eqnLi = document.createElement("span");
-    //     eqnLi.innerHTML = eqn.latex;
-    //     eqnList.append(eqnLi);
-    // })
     const htmlString = eqns.map((eqn) => {
         var searchMatches = searchInput.split(" ").every(
             tag => eqn.tags.includes(tag)

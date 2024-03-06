@@ -1,23 +1,177 @@
 const tagMap = {
-    "a": [["\\(\\displaystyle\\vec{A}\\) (area)", "area"], ["\\(\\displaystyle a\\) (acceleration)", "acceleration"],],
-    "c": [["\\(\\displaystyle C\\) (capacitance)", "capacitance"],],
-    "d": [["\\(\\displaystyle d\\) (distance)", "distance"],],
-    "e": [["\\(\\displaystyle\\vec{E}\\) (electric field)", "efield"],],
-    "f": [["\\(\\displaystyle\\vec{F}\\) (force)", "force"],],
-    "i": [["\\(\\displaystyle I\\) (current)", "current"], ["\\(\\displaystyle \\Phi\\) (electric flux)", "eflux"],],
-    "j": [["\\(\\displaystyle\\vec{J}\\) (current density)", "currentdensity"],],
-    "k": [["\\(\\displaystyle \\kappa\\) (dielectric constant)", "dielectricconstant"],],
-    "l": [["\\(\\displaystyle L\\) (length)", "length"],],
-    "m": [["\\(\\displaystyle m\\) (mass)", "mass"],],
-    "n": [["\\(\\displaystyle n\\) (charge carrier density)", "chargecarrierdensity"],],
-    "o": [["\\(\\displaystyle\\sigma\\) (conductivity)", "conductivity"], ["\\(\\displaystyle\\sigma\\) (area charge density)", "areachargedensity"],],
-    "p": [["\\(\\displaystyle P\\) (power)", "power"], ["\\(\\displaystyle\\rho\\) (resistivity)", "resistivity"], ["\\(\\displaystyle\\rho\\) (density)", "density"],],
-    "q": [["\\(\\displaystyle q\\) (charge)", "charge"],],
-    "r": [["\\(\\displaystyle R\\) (resistance)", "resistance"],],
-    "s": [["\\(\\displaystyle\\sigma\\) (conductivity)", "conductivity"], ["\\(\\displaystyle\\sigma\\) (area charge density)", "areachargedensity"],],
-    "t": [["\\(\\displaystyle t\\) (time)", "time"],],
-    "u": [["\\(\\displaystyle U\\) (potential energy)", "penergy"], ["\\(\\displaystyle u\\) (energy density)", "energydensity"],],
-    "v": [["\\(\\displaystyle\\vec{v}\\) (velocity)", "velocity"], ["\\(\\displaystyle\\vec{v}_d\\) (drift velocity)", "driftvelocity"], ["\\(\\displaystyle V\\) (voltage)", "volt"], ["\\(\\displaystyle V\\) (volume)", "volume"]],
+    "a": [
+        {
+            "latex": "\\(\\displaystyle\\vec{ A }\\)(area)",
+            "keyword": "area"
+        },
+        {
+            "latex": "\\(\\displaystyle a\\) (acceleration)",
+            "keyword": "acceleration"
+        }
+    ],
+    "c": [
+        { "latex": "\\(\\displaystyle C\\) (capacitance)", "keyword": "capacitance" }
+    ],
+    "d": [
+        {
+            "latex": "\\(\\displaystyle d\\) (distance)",
+            "keyword": "distance"
+        }
+    ],
+    "d": [
+        {
+            "latex": "\\(\\displaystyle d\\) (distance)",
+            "keyword": "distance"
+        }
+    ],
+
+    "e": [
+        {
+            "latex": "\\(\\displaystyle\\vec{E}\\) (electric field)",
+            "keyword": "efield"
+        }
+    ],
+
+    "f": [
+        {
+            "latex": "\\(\\displaystyle\\vec{F}\\) (force)",
+            "keyword": "force"
+        }
+    ],
+
+    "i": [
+        {
+            "latex": "\\(\\displaystyle I\\) (current)",
+            "keyword": "current"
+        },
+        {
+            "latex": "\\(\\displaystyle \\Phi\\) (electric flux)",
+            "keyword": "eflux"
+        }
+    ],
+
+    "j": [
+        {
+            "latex": "\\(\\displaystyle\\vec{J}\\) (current density)",
+            "keyword": "currentdensity"
+        }
+    ],
+
+    "k": [
+        {
+            "latex": "\\(\\displaystyle \\kappa\\) (dielectric constant)",
+            "keyword": "dielectricconstant"
+        }
+    ],
+
+    "l": [
+        {
+            "latex": "\\(\\displaystyle L\\) (length)",
+            "keyword": "length"
+        }
+    ],
+
+    "m": [
+        {
+            "latex": "\\(\\displaystyle m\\) (mass)",
+            "keyword": "mass"
+        }
+    ],
+
+    "n": [
+        {
+            "latex": "\\(\\displaystyle n\\) (charge carrier density)",
+            "keyword": "chargecarrierdensity"
+        }
+    ],
+
+    "o": [
+        {
+            "latex": "\\(\\displaystyle\\sigma\\) (conductivity)",
+            "keyword": "conductivity"
+        },
+        {
+            "latex": "\\(\\displaystyle\\sigma\\) (area charge density)",
+            "keyword": "areachargedensity"
+        }
+    ],
+
+    "p": [
+        {
+            "latex": "\\(\\displaystyle P\\) (power)",
+            "keyword": "power"
+        },
+        {
+            "latex": "\\(\\displaystyle\\rho\\) (resistivity)",
+            "keyword": "resistivity"
+        },
+        {
+            "latex": "\\(\\displaystyle\\rho\\) (density)",
+            "keyword": "density"
+        }
+    ],
+
+    "q": [
+        {
+            "latex": "\\(\\displaystyle q\\) (charge)",
+            "keyword": "charge"
+        }
+    ],
+
+    "r": [
+        {
+            "latex": "\\(\\displaystyle R\\) (resistance)",
+            "keyword": "resistance"
+        }
+    ],
+
+    "s": [
+        {
+            "latex": "\\(\\displaystyle\\sigma\\) (conductivity)",
+            "keyword": "conductivity"
+        },
+        {
+            "latex": "\\(\\displaystyle\\sigma\\) (area charge density)",
+            "keyword": "areachargedensity"
+        }
+    ],
+
+    "t": [
+        {
+            "latex": "\\(\\displaystyle t\\) (time)",
+            "keyword": "time"
+        }
+    ],
+
+    "u": [
+        {
+            "latex": "\\(\\displaystyle U\\) (potential energy)",
+            "keyword": "penergy"
+        },
+        {
+            "latex": "\\(\\displaystyle u\\) (energy density)",
+            "keyword": "energydensity"
+        }
+    ],
+
+    "v": [
+        {
+            "latex": "\\(\\displaystyle\\vec{v}\\) (velocity)",
+            "keyword": "velocity"
+        },
+        {
+            "latex": "\\(\\displaystyle\\vec{v}_d\\) (drift velocity)",
+            "keyword": "driftvelocity"
+        },
+        {
+            "latex": "\\(\\displaystyle V\\) (voltage)",
+            "keyword": "volt"
+        },
+        {
+            "latex": "\\(\\displaystyle V\\) (volume)",
+            "keyword": "volume"
+        }
+    ]
 };
 
 function showAuto() {
@@ -35,7 +189,7 @@ function showAuto() {
     const tags = tagMap[input];
     if (tags) {
         const htmlString = tags.map((tag) => {
-            return `<li class="autocomplete-item" onclick="addAutoCmp('${tag[1]}')"><p>${tag[0]}</p></li>`;
+            return `<li class="autocomplete-item" onclick="addAutoCmp('${tag["keyword"]}')"><p>${tag["latex"]}</p></li>`;
         });
         autoList.innerHTML = htmlString.join("");
     }
