@@ -122,7 +122,7 @@ const eqns = [
     },
     {
         // resistivity
-        latex: "\\(\\displaystyle \\rho = \\rho_0 (1 + \\alpha(T - T_0)\\)",
+        latex: "\\(\\displaystyle \\rho = \\rho_0 \\left(1 + \\alpha(T - T_0)\\right)\\)",
         tags: ["resistivity", "conductivity", "tempcoeffresistivity", "temp"]
     },
     {
@@ -145,6 +145,21 @@ const eqns = [
         latex: "\\(\\displaystyle P_{\\text{resistor}} = I^2 R = \\frac{V^2}{R}\\)",
         tags: ["power", "current", "resistance", "volt"],
     },
+    {
+        // lorenz force
+        latex: "\\(\\displaystyle \\vec{F} = q (\\vec{v} \\times \\vec{B})\\)",
+        tags: ["force", "charge", "velocity", "bfield"],
+    },
+    {
+        // velocity selector
+        latex: "\\(\\displaystyle v = \\frac{E}{B} \\text{, if } F_{\\text{electric}} = F_{\\text{magnetic}} \\)",
+        tags: ["velocity", "efield", "bfield"],
+    },
+    {
+        // magnetic flux
+        latex: "\\(\\displaystyle \\Phi_B = \\int \\vec{B} \\cdot d \\vec{A} \\)",
+        tags: ["bflux", "bfield", "area"],
+    }
 ]
 
 function showAllEqn() {

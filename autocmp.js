@@ -1,12 +1,18 @@
 const tagMap = {
     "a": [
         {
-            "latex": "\\(\\displaystyle\\vec{ A }\\)(area)",
+            "latex": "\\(\\displaystyle\\vec{ A }\\) (area)",
             "keyword": "area"
         },
         {
             "latex": "\\(\\displaystyle a\\) (acceleration)",
             "keyword": "acceleration"
+        }
+    ],
+    "b": [
+        {
+            "latex": "\\(\\displaystyle\\vec{B}\\) (magnetic field)",
+            "keyword": "bfield",
         }
     ],
     "c": [
@@ -24,7 +30,6 @@ const tagMap = {
             "keyword": "distance"
         }
     ],
-
     "e": [
         {
             "latex": "\\(\\displaystyle\\vec{E}\\) (electric field)",
@@ -47,6 +52,10 @@ const tagMap = {
         {
             "latex": "\\(\\displaystyle \\Phi\\) (electric flux)",
             "keyword": "eflux"
+        },
+        {
+            "latex": "\\(\\displaystyle \\Phi\\) (magnetic flux)",
+            "keyword": "bflux"
         }
     ],
 
